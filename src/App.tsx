@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import About from './components/About'
@@ -8,7 +7,6 @@ import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <main className="text-gray-400 bg-gray-900 body-font">

@@ -1,6 +1,5 @@
 import React from 'react';
-import { CodeIcon } from "@heroicons/react/24/solid";
-
+import { FaCode } from "react-icons/fa"
 import { projects } from "../data";
 
 export default function Projects() {
@@ -8,7 +7,7 @@ export default function Projects() {
     <section className="text-gray-400 bg-gray-900 body-font" id="projects">
       <div className="container px-5 py-24 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <FaCode className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Projects
           </h1>

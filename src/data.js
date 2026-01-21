@@ -32,3 +32,43 @@ export const projects = [
     link: "https://example.com/project-four",
   }
 ];
+
+export const skills = [
+  "JavaScript",
+  "React",
+  "Node.js",
+  "CSS",
+  "HTML5",
+  "Git & GitHub",
+  "Python",
+  "Django",
+  "Flutter",
+  "Data Analysis"
+];
+
+export const testimonials = [
+  {
+    quote: "This service transformed our business!",
+    name: "Alex P.",
+    image: "https://via.placeholder.com/100",
+    company: "Tech Solutions"
+  },
+  {
+    quote: "Exceptional quality and support.",
+    name: "Jamie L.",
+    image: "https://via.placeholder.com/100",
+    company: "Innovatech"
+  },
+  {
+    quote: "Highly recommend to anyone looking for great results.",
+    name: "Morgan S.",
+    image: "https://via.placeholder.com/100",
+    company: "Creative Minds"
+  },
+  {
+    quote: "A game-changer for our workflow.",
+    name: "Taylor R.",
+    image: "https://via.placeholder.com/100",
+    company: "NextGen Corp"
+  }
+]
